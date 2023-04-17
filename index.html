@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>engineerHUB</title>
+  <link rel="icon" type="image/x-icon" href="img/download.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  <nav class="flex items-center  justify-between p-6 lg:px-8" aria-label="Global">
+    <div class="flex lg:flex-1">
+      <a href="#" class="-m-1.5 p-1.5">
+        <h2 class="font-sans font-bold">engineer<span class="text-red-500 font-extrabold">HUB</span></h2>
+      </a>
+    </div>
+    <div class="flex lg:hidden">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+        <span class="sr-only">Open main menu</span>
+        <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
+      </button>
+    </div>
+    <ul class="hidden lg:flex lg:gap-x-12 text-center md:flex md:items-center z-[1] md:z-auto md:sticky bg-black md:bg-white absolute  w-full left-0 md:w-auto md:py-0 py-4
+    md:pl-0 pl-7 md:opacity-100 opacity-0 top:[-400px] md:text-black text-white transistion-all ease-in duration-500" id="links-container">
+    <li>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Product</a>
+    </li>
+     
+    <li>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Features</a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Marketplace</a>
+    </li>
+
+    <li>
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Company</a>
+    </li>      
+  </ul>
+    <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Log in <span aria-hidden="true">&rarr;</span></a>
+    </div>
+  </nav>
+
+    <section class="flex py-20 bg-primary w-full h-full mt-5">
+     <div class="flex flex-col w-full h-full">
+        <div class="flex flex-col py-5 items-center text-center justify-center w-full">
+         <h1 class="font-bold flex text-xl shadow-md font-poppins text-green text-white"> 
+            engineerHUB <br/> Campus
+         </h1>
+        </div>
+        <div class="flex xs:pl-20 lg:pl-72 justify-center items-center flex-row flex-1 w-full">
+          <div class=" w-4/12">
+            <h2 class="text-[30px] text-green-500">50k+</h2>
+            <p class="font-thin text-sm text-green-300 font-poppins">Students</p>
+          </div>
+          <div class=" w-4/12">
+            
+            <h2 class="text-[30px] text-green-500">800k+</h2>
+            <p class="font-thin text-sm text-green-300 font-poppins">Campus</p>
+          </div>
+          <div class=" w-4/12">
+            
+            <h2 class="text-[30px] text-green-500">18k+</h2>
+            <p class="font-thin text-sm text-green-300 font-poppins">Industries</p>
+          </div>
+        </div>
+     </div>
+    </section>
+
+    <section class="about-us mt-5">
+        <div class=" h-[full] w-full px-3">
+           <div class="heading text-center">
+             <h2 class="text-2xl text-green-400 font-bold">About Us</h2>
+           </div>
+           <div class="flex xs:flex-col md:flex-row md:justify-between lg:px-24 items-center">
+            <div class="paragraph flex justify-center items-center text-center">
+              <p class="max-w-[520px] font-sans text-black text-2xl">
+                engineerHUB is INDIA's leading community of 
+                engineers where students or alumni from IITs, 
+                NITs, IIITs and state colleges unite together to 
+                develop and nurture the skills of students all over India.
+                Our goal is to counsel beginners in the field by providing them 
+                with basic guidelines about how and where to start their learning
+              </p>
+         </div>
+
+          <div class="image">
+             <img src="./assets/Group.6dd638e54db8a78e2840afc8061cc3d8.svg" alt="engineerHUBImage"/>
+          </div>
+
+           </div>
+        
+        </div>
+    
+    </section>
+
+    <div id="root"></div>
+
+    <section class="mt-10 w-full h-full px-4 py-3 ">
+        <div>
+           <div class="text-center mb-3">
+            <h1 class="text-xl text-black"> What our Members think about us </h1>
+           </div>
+
+          <div class="testimony-card flex md:flex-row justify-center items-center xs:py-2 flex-col w-full">
+
+             <div class="bg-white rounded-md shadow-md px-3 py-2 xs:w-[420px] md:w-4/12 xs:mb-3 md:mr-3">
+                <div class="flex image flex-col justify-center items-center">
+                  <div class="text-center flex justify-center items-center">
+                      <img width="30px" src="assets/radhul.png" alt="radhulImage"/>
+                  </div>
+                  <div class="title flex flex-col gap-2  justify-center items-center">
+                      <h3 class="text-green-700 font-thin">Swapnil</h3>
+                     <h4 class="text-stone-600">Senior Coordinator</h4>
+                  </div>
+              <div class="message pt-3 pb-3 text-center flex justify-center items-center">
+                  <p class="font-sans font-thin max-w-[250px]">
+                     " The Weekend with us Program organised by the company provides
+                     a Framework for the students to help them prepare for the placements."
+                  </p>
+              </div>
+
+                </div>
+           </div>
+
+           <div class="bg-white rounded-md shadow-md px-3 py-2 xs:w-[420px] md:w-4/12 xs:mb-3 md:mr-3">
+            <div class="flex image flex-col justify-center items-center">
+              <div class="text-center flex justify-center items-center">
+                  <img width="30px" src="assets/radhul.png" alt="radhulImage"/>
+              </div>
+              <div class="title flex flex-col gap-2">
+                  <h3 class="text-green-700 font-thin">Aditi J</h3>
+                 <h4 class="text-stone-600">Developer</h4>
+              </div>
+          <div class="message pt-3 pb-3 text-center flex justify-center items-center">
+              <p class="font-sans font-thin max-w-[250px]">
+                 " The community rovide updated content & authorized
+                 resources to benefit students with various courses to brush
+                 up their skills. 
+              </p>
+          </div>
+
+            </div>
+       </div>
+       <div class="bg-white rounded-md shadow-md px-3 py-2 xs:w-[420px] md:w-4/12 xs:mb-3 md:mr-3">
+        <div class="flex image flex-col justify-center items-center">
+          <div class="text-center flex justify-center items-center">
+              <img width="30px" src="assets/radhul.png" alt="radhulImage"/>
+          </div>
+          <div class="title flex flex-col gap-2">
+              <h3 class="text-green-700 font-thin">Rahul K.M</h3>
+             <h4 class="text-stone-600">Developer</h4>
+          </div>
+      <div class="message pt-3 pb-3 text-center flex justify-center items-center">
+          <p class="font-sans font-thin max-w-[250px]">
+             " The community rovide updated content & authorized
+             resources to benefit students with various courses to brush
+             up their skills. 
+          </p>
+      </div>
+
+        </div>
+   </div>
+          </div>
+
+        </div>
+    </section>
+
+    <footer class="footer-links mt-10">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+              <div class="w-full lg:w-6/12 px-4">
+                <h4 class="text-3xl font-semibold text-gray-500">Let's keep in touch!</h4>
+                <h5 class="text-lg mt-0 mb-2 text-gray-700">
+                  Find us on any of these platforms, we respond 1-2 business days.
+                </h5>
+                <div class="mt-6">
+                  <button
+                    class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 "
+                    type="button"
+                  >
+                  <a href="https://mobile.twitter.com/Daniel53353708">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <button
+                    class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                  <a href="https://web.facebook.com/danny.miracle.946/">
+                    <i class="fab fa-facebook"></i>
+                  </a>
+                  <button
+                    class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                    <i class="flex fab fa-dribbble"></i></button
+                  ><button
+                    class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    type="button"
+                  >
+                  <a href="https://github.com/Danwinn151">
+                    <i class="flex fab fa-github"></i>
+                  </a>
+                  </button>
+                </div>
+              </div>
+              <div class="w-full lg:w-6/12 px-4">
+                <div class="flex flex-wrap items-top mb-6">
+                  <div class="w-full lg:w-4/12 px-4 ml-auto">
+                    <span
+                      class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span
+                    >
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >About us</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >Github</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >Free Products</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-full lg:w-4/12 px-4">
+                    <span
+                      class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+                      >Other Resources</span
+                    >
+                    <ul class="list-unstyled">
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >MIT License</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >Terms &amp; Conditions</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151"
+                          >Privacy Policy</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                          href="https://github.com/Danwinn151">Contact me</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr class="my-6 border-gray-400" />
+            <div
+              class="flex flex-wrap items-center md:justify-between justify-center">
+              <div class="w-full md:w-4/12 px-4 mx-auto text-center">
+                <div class="text-sm text-gray-600 font-semibold py-1">
+                  Copyright © 2022 Portfolio Kit by
+                  <a
+                    href="https://www.creative-tim.com"
+                    class="text-gray-600 hover:text-gray-900"
+                    >Enginnering Hub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </footer>
+  
+    <script>
+      const Menu = (e) => {
+        const list = document.querySelector('ul');
+        e.name === "menu-outline" ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) :
+          (e.name = "menu-outline", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+      }
+      
+    </script>
+  
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

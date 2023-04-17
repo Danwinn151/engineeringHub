@@ -1,0 +1,13 @@
+.container2{
+    display: flex;
+    justify-content: center;
+}
+
+.underline{
+    border: 3px solid aqua;
+    width: 400px;
+    text-align: center;
+    display: flex;
+   justify-content: center;
+    
+}
